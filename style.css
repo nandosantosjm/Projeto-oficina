@@ -4,14 +4,14 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    height: 100vh;
+html,body{
+    min-height: 100vh;
     background-color: rgb(211, 211, 211);
 }
 header{
     background-image: url(Oficina\ Mecânica\ Popular.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover ;
     background-position-y: 85%;
     height: 85vh;
 }
@@ -32,6 +32,13 @@ nav > a{
     color: white;
     padding: 0px 25px;
     font-size: 1.5em;
+    transition: 0.3s;
+}
+nav > a:hover{
+    padding: 30px 25px;
+    background-color:rgba(0, 0, 0, 0.466);
+    border-radius: 15px;
+    
 }
 header > section{
     background-image:linear-gradient( 90deg, rgba(0, 0, 0, 0.705),rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0));
@@ -63,16 +70,65 @@ section > #marcacao{
     font-weight: bolder;
     font-size: 0.8em;
 }
-main > .area{
-    position: absolute;
-    left: 50%;
+main > h1{
+    margin: 60px 0px 0px 0px ;
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 10px 1px 10px  rgba(0, 0, 0, 0.363);
 }
-main > #revisao{
+main #grade {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 80px 16.30vw;
+    padding: 0px 80px;
     
+
 }
-main > #travagem{
-    
+#grade .img{
+    padding: 50px 0px 20px 25px;
+    height: 110px;
 }
-main > #iluminacao{
+#grade #revisao{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 100px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274);   
+}
+#grade #travagem{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 84px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274); 
+}
+#grade #iluminacao{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 71px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.274); 
+}.artigo > p{
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 2em;
+}
+#grade > a{
+    text-decoration: none;
+    color: black;
+}
+#grade >a:hover{
+    text-decoration: underline;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.274);
+}
+main > #fundo{
+    background-color: rgb(170, 170, 170);
+    width: 100vw;
+    height: 100vh;
+}
+#principal{
+
+    margin:auto;
+    width: 95vw;
+    background-image: url(1769036082147.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
     
 }
