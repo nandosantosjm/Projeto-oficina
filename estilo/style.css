@@ -15,6 +15,20 @@ header{
     background-position-y: 85%;
     height: 85vh;
 }
+@media (min-width: 300px) {
+    header{
+        width: 100%; 
+        background-position-x: 80%;  
+    }
+   
+    nav > h1{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: -32px 30px;
+    font-size: 1em;
+    }
+ 
+}
 nav{
    padding: 60px 50px 30px 0px;
    text-align: right;
