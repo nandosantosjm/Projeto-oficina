@@ -9,14 +9,14 @@ html,body{
     background-color: rgb(211, 211, 211);
 }
 header{
-    background-image: url(Oficina\ Mecânica\ Popular.jpg);
+    background-image: url(../imagen/Oficina\ Mecânica\ Popular.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
     background-position-y: 85%;
     height: 85vh;
 }
 nav{
-   padding: 30px 50px 30px 0px;
+   padding: 60px 50px 30px 0px;
    text-align: right;
    background-color: rgba(0, 0, 0, 0.466);
    
@@ -24,8 +24,11 @@ nav{
 nav > h1{
     text-align: left;
     color: rgb(255, 255, 255);
-    padding-top: 30px;
     margin: -32px 30px;
+    
+}
+nav >h1:hover{
+    color: red;
 }
 nav > a{
     text-decoration: none;
@@ -69,8 +72,15 @@ section > #marcacao{
     color: rgb(0, 0, 0);
     font-weight: bolder;
     font-size: 0.8em;
+    margin-left: 180px;
+    text-decoration: none;
 }
-main > h1{
+section > #marcacao:hover{
+    background-color:rgb(9, 255, 0) ;
+    transition: 0.3s;
+    box-shadow: black;
+}
+main > #servicos{
     margin: 60px 0px 0px 0px ;
     text-align: center;
     font-size: 5em;
@@ -119,16 +129,56 @@ main #grade {
 main > #fundo{
     background-color: rgb(170, 170, 170);
     width: 100vw;
-    height: 100vh;
 }
 #principal{
 
     margin:auto;
-    width: 95vw;
-    background-image: url(1769036082147.png);
+    width: 100vw;
+    background-image: url(../imagen/1769036082147.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
-    height: 100vh;
     
+    height: 90vh;
+}
+main > #descricao{
+    background-color: white;
+    width: 70vw;
+    margin: auto;
+    padding: 50px 100px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.226);
+}
+#descricao >h1 {
+    font-size: 2.4em;
+    text-align: justify;
+    
+}
+#descricao > p{
+    font-size: 1.5em;
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    line-height: 1.5em;
+    text-indent: 30px;
+    line-height: 2em;
+    
+}
+ul{
+    line-height: 2em;
+    padding:20px 120px;
+    margin: 0px -100px;
+    font-size: 1.5em;
+    background-color: rgba(204, 204, 204, 0.664);
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.342);
+}
+h2{
+    padding: 15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
 }
